@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="algs4">
+  <library name="edu">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/algs4.jar!/edu/princeton/cs/algs4" />
+      <root url="jar://$PROJECT_DIR$/algs4.jar!/edu" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
