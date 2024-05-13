@@ -1,0 +1,78 @@
+[gd_scene load_steps=10 format=3 uid="uid://gqmafxb5u5l1"]
+
+[ext_resource type="Texture2D" uid="uid://b3j7iufno1gve" path="res://assert pack/Ninja Adventure - Asset Pack/Actor/Characters/SamuraiRed/redsamurai.png" id="1_xxnyf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_moaqa"]
+atlas = ExtResource("1_xxnyf")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ec720"]
+atlas = ExtResource("1_xxnyf")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jhj4"]
+atlas = ExtResource("1_xxnyf")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r663u"]
+atlas = ExtResource("1_xxnyf")
+region = Rect2(0, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_byacq"]
+atlas = ExtResource("1_xxnyf")
+region = Rect2(0, 80, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r0w5k"]
+atlas = ExtResource("1_xxnyf")
+region = Rect2(0, 64, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ppcv1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_moaqa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ec720")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4jhj4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r663u")
+}],
+"loop": false,
+"name": &"dithang",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_moaqa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_byacq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r0w5k")
+}],
+"loop": true,
+"name": &"dungyen",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_knu8t"]
+radius = 5.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(141, -160)
+sprite_frames = SubResource("SpriteFrames_ppcv1")
+animation = &"dungyen"
+autoplay = "dungyen"
+frame_progress = 0.210075
+offset = Vector2(-141, 160)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_knu8t")

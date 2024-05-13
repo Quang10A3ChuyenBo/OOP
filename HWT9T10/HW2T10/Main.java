@@ -1,14 +1,12 @@
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Vui lòng nhập 9 ký tự:");
-
-        String input = scanner.next().substring(0, 9);
-
-        System.out.println("Bạn đã nhập: " + input);
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+public class ExpressionTest {
+    @Test
+    void testEvaluate(){
+        Expression p1 = new Numeral(1);
+        Expression p2 = new Numeral(2);
+        assertEquals(p1.evaluate(),1);
+        assertEquals(p2.evaluate(),1);
     }
 }
-// Code nháp , vui lòng không chấm ạ :)) Em cảm ơn ạ

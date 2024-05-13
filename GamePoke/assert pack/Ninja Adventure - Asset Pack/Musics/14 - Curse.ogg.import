@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://7papicqprxy4"
+path="res://.godot/imported/14 - Curse.ogg-82a777f93d4528297b8d18f64968c144.oggvorbisstr"
+
+[deps]
+
+source_file="res://assert pack/Ninja Adventure - Asset Pack/Musics/14 - Curse.ogg"
+dest_files=["res://.godot/imported/14 - Curse.ogg-82a777f93d4528297b8d18f64968c144.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

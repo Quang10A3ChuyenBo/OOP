@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bne2bwr4j3w40"
+path="res://.godot/imported/edmpokemenu.wav-25b8fea86b857acb25dbb6157382a994.mp3str"
+
+[deps]
+
+source_file="res://assert pack/Ninja Adventure - Asset Pack/Sounds/Menu/edmpokemenu.wav"
+dest_files=["res://.godot/imported/edmpokemenu.wav-25b8fea86b857acb25dbb6157382a994.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

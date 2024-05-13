@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxgyr07h51ape"
+path="res://.godot/imported/Spirit.wav-8022a0bbaff2121171b91f6e4a33ee93.sample"
+
+[deps]
+
+source_file="res://assert pack/Ninja Adventure - Asset Pack/Sounds/Game/Spirit.wav"
+dest_files=["res://.godot/imported/Spirit.wav-8022a0bbaff2121171b91f6e4a33ee93.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

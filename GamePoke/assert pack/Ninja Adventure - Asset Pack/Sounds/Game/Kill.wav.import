@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctxi6s5sspdu5"
+path="res://.godot/imported/Kill.wav-f233641f58e979ff92a846f3fd4e2e61.sample"
+
+[deps]
+
+source_file="res://assert pack/Ninja Adventure - Asset Pack/Sounds/Game/Kill.wav"
+dest_files=["res://.godot/imported/Kill.wav-f233641f58e979ff92a846f3fd4e2e61.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
