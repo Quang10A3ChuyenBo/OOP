@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Enum0",
+        "storageType": "string",
+        "type": "enum",
+        "values": [
+            "Wall",
+            "Grass",
+            "House",
+            "Status"
+        ],
+        "valuesAsFlags": true
+    },
+    {
+        "color": "#ffa0a0a4",
+        "drawFill": true,
+        "id": 2,
+        "members": [
+            {
+                "name": "Status",
+                "propertyType": "Enum0",
+                "type": "string",
+                "value": "Wall"
+            }
+        ],
+        "name": "Class0",
+        "type": "class",
+        "useAs": [
+            "property",
+            "map",
+            "layer",
+            "object",
+            "tile",
+            "tileset",
+            "wangcolor",
+            "wangset",
+            "project"
+        ]
+    }
+]

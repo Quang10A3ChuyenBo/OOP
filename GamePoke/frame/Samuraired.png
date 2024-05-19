@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cvgg0xkxacg5v"]
+
+[ext_resource type="Texture2D" uid="uid://b3j7iufno1gve" path="res://assert pack/Ninja Adventure - Asset Pack/Actor/Characters/SamuraiRed/redsamurai.png" id="1_we23p"]
+
+[resource]
+atlas = ExtResource("1_we23p")
+region = Rect2(0, 0, 16, 16)

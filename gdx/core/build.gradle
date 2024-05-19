@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+dependencies {
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    api "com.badlogicgames.gdx:gdx-tools:$gdxVersion" 
+}
+
+eclipse.project.name = appName + "-core"
